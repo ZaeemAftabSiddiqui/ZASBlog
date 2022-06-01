@@ -1,7 +1,30 @@
 import React from "react";
+import styles from "../styles/Blog.module.css";
+import Link from "next/link";
 
-function Blog() {
-  return <div>This is Blog</div>;
-}
+const Blog = () => {
+  return (
+    <div className={styles.container}>
+      <main className={styles.main}>
+        <div>
+          <Link href={"/BlogPost/learn-javascript"}>
+            <h3 className={styles.BlogItemh3}>
+              How to learn javascript in 2022?
+            </h3>
+          </Link>
+          <p>Javascript is the language</p>
+        </div>
+        <div className="BlogItem">
+          <h3>How to learn javascript in 2022?</h3>
+          <p>Javascript is the language</p>
+        </div>
+        <div className="BlogItem">
+          <h3>How to learn javascript in 2022?</h3>
+          <p>Javascript is the language</p>
+        </div>
+      </main>
+    </div>
+  );
+};
 
 export default Blog;

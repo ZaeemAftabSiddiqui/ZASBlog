@@ -36,7 +36,7 @@ export default function Home() {
           A blog for students by a Best teacher
         </p>
         <div className="blogs">
-          <h2>Popular Blogs</h2>
+          <h2>Latest Blogs</h2>
           <div className="BlogItem">
             <h3>How to learn javascript in 2022?</h3>
             <p>Javascript is the language</p>
