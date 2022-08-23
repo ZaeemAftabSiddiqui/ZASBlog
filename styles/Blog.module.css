@@ -11,3 +11,6 @@
 .BlogItemh3 {
   cursor: pointer;
 }
+.BlogItemp{
+  max-width: 45vw;
+}
