@@ -10,7 +10,10 @@
 }
 .BlogItemh3 {
   cursor: pointer;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
 }
-.BlogItemp{
+.BlogItemp {
   max-width: 45vw;
 }
