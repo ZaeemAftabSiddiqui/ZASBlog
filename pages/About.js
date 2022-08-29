@@ -21,13 +21,13 @@ const About = () => {
       </p>
       <p>We offer following services</p>
       <ul>Services 1</ul>
-      <ul>Services 1</ul>
-      <ul>Services 1</ul>
-      <ul>Services 1</ul>
-      <ul>Services 1</ul>
-      <ul>Services 1</ul>
-      <ul>Services 1</ul>
-      <ul>Services 1</ul>
+      <ul>Services 2</ul>
+      <ul>Services 3</ul>
+      <ul>Services 4</ul>
+      <ul>Services 5</ul>
+      <ul>Services 6</ul>
+      <ul>Services 7</ul>
+      <ul>Services 8</ul>
 
       <h2>Contact us</h2>
       <p>
