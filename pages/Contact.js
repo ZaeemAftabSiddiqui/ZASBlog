@@ -8,7 +8,6 @@ const Contact = () => {
   const [phone, setPhone] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(phone, email, name, desc);
     const data = { phone, name, email, desc };
     fetch("http://localhost:3000/api/postcontact/", {
       method: "POST",
