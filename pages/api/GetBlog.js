@@ -1,5 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-//http://localhost:3000/api/GetBlog?slug=how-to-learn-react
 import * as fs from "fs";
 
 export default function handler(req, res) {
@@ -7,7 +5,6 @@ export default function handler(req, res) {
     if (err) {
       res.status(500).json({ error: "not found blog post" });
     }
-    console.log(req.query.slug);
     res.status(200).json(JSON.parse(data));
   });
 }

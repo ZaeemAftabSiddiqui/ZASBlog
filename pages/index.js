@@ -10,7 +10,6 @@ export default function Home() {
         <meta name="Keywords" content="nextjs, personal blog, blog " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <script src="/sc.js" strategy="lazyOnload"></script> */}
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to ZAS Blog</h1>
         <div className={styles.imagewrap}>
