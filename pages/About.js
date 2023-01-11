@@ -42,9 +42,30 @@ const About = () => {
       <h1>Social Media</h1>
       <p>
         Follow us on our social media to stay updated with new articles and
-        other informations. [https://twitter.com/ZaeemAftab]
-        [https://github.com/ZaeemAftabSiddiqui]
-        [https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/]
+        other informations.
+        <div>
+          <a href="https://twitter.com/zaeemaftab" target="blank">
+            <img
+              align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+              alt="zaeemaftab"
+              height="30"
+              width="40"
+            />
+          </a>
+          <a
+            href="https://linkedin.com/in/https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/"
+            target="blank"
+          >
+            <img
+              align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+              alt="https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/"
+              height="30"
+              width="40"
+            />
+          </a>
+        </div>
       </p>
       <h2>Conclusion</h2>
       <p>
