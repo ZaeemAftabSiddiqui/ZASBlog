@@ -7,37 +7,52 @@ const About = () => {
       <h1 className={styles.center}>About ZAS-blog </h1>
       <h2>Introduction</h2>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
-        dignissimos quam illo tempora nam eius repudiandae nostrum, culpa dolore
-        quae repellat. Magnam hic porro, eos omnis voluptates sit perspiciatis
-        exercitationem.
+        Welcome to our professional coding blog! We are a team of experienced
+        developers and we created this blog to share our knowledge and
+        experiences with the community. Our blog covers a wide range of topics
+        related to coding, including web development, software engineering, and
+        more.
       </p>
       <h2>Services offered</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet odio
-        aliquid aperiam. Deserunt perspiciatis facere molestias exercitationem,
-        quos labore, fugiat autem quae impedit modi, suscipit tempore incidunt
-        ullam qui quis laudantium odit culpa reprehenderit.
+        High-quality articles written by experienced developers Regularly
+        updated with new content Detailed explanations and code examples to help
+        you understand the concepts A search function to help you find specific
+        topics Responsive design for easy reading on any device
       </p>
-      <p>We offer following services</p>
-      <ul>Services 1</ul>
-      <ul>Services 2</ul>
-      <ul>Services 3</ul>
-      <ul>Services 4</ul>
-      <ul>Services 5</ul>
-      <ul>Services 6</ul>
-      <ul>Services 7</ul>
-      <ul>Services 8</ul>
+      <h2>Topics Covered</h2>
+      <p>Our blog covers a wide range of topics, including:</p>
+      <ul>Web development: HTML, CSS, JavaScript, and more</ul>
+      <ul>Software engineering: design patterns, best practices, and more</ul>
+      <ul>Programming languages: Python, Java, C++, and more</ul>
+      <ul>Cloud computing: AWS, Azure, and more</ul>
 
       <h2>Contact us</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-        exercitationem esse tenetur nesciunt eveniet, ipsum doloribus fuga
-        quibusdam maxime! Suscipit corporis molestias, eum quae, dolorem
-        consequuntur voluptate, modi voluptatibus rerum expedita odio eligendi
-        officiis exercitationem. Quos aliquam, ea totam ad nemo, fuga ex iste ab
-        doloribus quas natus nisi sed labore dolores debitis quis nesciunt
-        consectetur.
+        If you have any questions or feedback, please feel free to reach out to
+        us at [Email: zaeemaftabsiddiqui@gmail.com]. We'd love to hear from you!
+      </p>
+      <h1>Contribute</h1>
+      <p>
+        If you are interested in contributing to our blog, please send a writing
+        sample and your areas of expertise to [Email:
+        zaeemaftabsiddiqui@gmail.com]. We are always looking for new
+        perspectives and fresh content.
+      </p>
+      <h1>Social Media</h1>
+      <p>
+        Follow us on our social media to stay updated with new articles and
+        other informations. [https://twitter.com/ZaeemAftab]
+        [https://github.com/ZaeemAftabSiddiqui]
+        [https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/]
+      </p>
+      <h2>Conclusion</h2>
+      <p>
+        Thank you for visiting our professional coding blog. We hope that you
+        find our articles informative and helpful. If you have any feedback or
+        suggestions for topics that you would like to see covered on our blog,
+        please don't hesitate to reach out to us. We look forward to hearing
+        from you!
       </p>
     </div>
   );
