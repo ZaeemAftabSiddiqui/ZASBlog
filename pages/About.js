@@ -1,8 +1,11 @@
 import React from "react";
 import styles from "../styles/About.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const About = () => {
+  // Make loader function to load it from the destination of the image.
+
   return (
     <div className={styles.container}>
       <h1 className={styles.center}>About ZAS-blog </h1>
@@ -48,26 +51,27 @@ const About = () => {
       <div>
         <Link href="https://twitter.com/zaeemaftab" target="blank">
           <a>
-            <img
-              align="center"
-              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+            <Image
+              src={
+                "https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+              }
               alt="zaeemaftab"
-              height="30"
-              width="40"
+              height={30}
+              width={40}
             />
           </a>
         </Link>
+
         <Link
           href="https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/"
           target="blank"
         >
           <a>
-            <img
-              align="center"
+            <Image
               src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
               alt="https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/"
-              height="30"
-              width="40"
+              height={30}
+              width={40}
             />
           </a>
         </Link>
