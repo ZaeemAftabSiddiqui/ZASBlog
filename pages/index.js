@@ -23,7 +23,7 @@ export default function Home() {
           />
         </div>
         <p className={styles.description}>
-          A blog for students by a Best teacher
+          A blog for students by a best teacher
         </p>
         <div className="blogs">
           <h2 className={styles.h2}>Latest Blogs</h2>
