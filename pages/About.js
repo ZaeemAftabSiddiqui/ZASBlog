@@ -34,7 +34,8 @@ const About = () => {
       <h2>Contact us</h2>
       <p>
         If you have any questions or feedback, please feel free to reach out to
-        us at [Email: zaeemaftabsiddiqui@gmail.com]. We'd love to hear from you!
+        us at [Email: zaeemaftabsiddiqui@gmail.com]. We&apos;d love to hear from
+        you!
       </p>
       <h1>Contribute</h1>
       <p>
@@ -82,8 +83,8 @@ const About = () => {
         Thank you for visiting our professional coding blog. We hope that you
         find our articles informative and helpful. If you have any feedback or
         suggestions for topics that you would like to see covered on our blog,
-        please don't hesitate to reach out to us. We look forward to hearing
-        from you!
+        please don&apos;t hesitate to reach out to us. We look forward to
+        hearing from you!
       </p>
     </div>
   );
