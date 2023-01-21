@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/About.module.css";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -45,27 +46,31 @@ const About = () => {
         other informations.
       </p>
       <div>
-        <a href="https://twitter.com/zaeemaftab" target="blank">
-          <img
-            align="center"
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-            alt="zaeemaftab"
-            height="30"
-            width="40"
-          />
-        </a>
-        <a
-          href="https://linkedin.com/in/https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/"
+        <Link href="https://twitter.com/zaeemaftab" target="blank">
+          <a>
+            <img
+              align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+              alt="zaeemaftab"
+              height="30"
+              width="40"
+            />
+          </a>
+        </Link>
+        <Link
+          href="https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/"
           target="blank"
         >
-          <img
-            align="center"
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-            alt="https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/"
-            height="30"
-            width="40"
-          />
-        </a>
+          <a>
+            <img
+              align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+              alt="https://www.linkedin.com/in/zaeem-aftab-siddiqui-ba45b21a2/"
+              height="30"
+              width="40"
+            />
+          </a>
+        </Link>
       </div>
 
       <h2>Conclusion</h2>
